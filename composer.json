@@ -1,0 +1,19 @@
+{
+    "name": "libs8000/consoleutils",
+    "description": "Console utilities for the libs8000",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dmitriy Haralson",
+            "email": "diharalson@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.6",
+    },
+    "autoload": {
+		"psr-4": {
+			"libs8000\\consoleutils\\": ""
+		}
+	}   
+}
