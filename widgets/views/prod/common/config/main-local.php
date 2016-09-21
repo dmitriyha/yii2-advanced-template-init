@@ -1,4 +1,5 @@
 <?php
+echo "<?php
 return [
     'components' => [
         'db' => [
@@ -13,4 +14,4 @@ return [
             'viewPath' => '@common/mail',
         ],
     ],
-];
+];";
