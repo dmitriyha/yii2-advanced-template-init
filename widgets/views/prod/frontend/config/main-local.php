@@ -1,5 +1,5 @@
 <?php
-echo "<php
+echo "<?php
 return [
     'components' => [
         'request' => [
