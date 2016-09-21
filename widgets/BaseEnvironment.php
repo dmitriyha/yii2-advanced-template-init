@@ -36,7 +36,7 @@ abstract class BaseEnvironment extends Widget {
                 )
             );
             file_put_contents($configFolder.'/params-local.php',$this->render($this->environment.'/'.$folder.'/config/params-local.php'));
-            if(file_exists($path.'/web/index.php')){
+            if(!file_exists($path.'/web/index.php') && $namespace !== '@common' && $namespace !== '@console'){
                 if(!file_exists($path.'/web/assets')){
                     mkdir($path.'/web/assets',755);
                     mkdir($path.'/runtime',755);
