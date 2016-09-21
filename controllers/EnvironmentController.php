@@ -6,6 +6,7 @@ use Yii;
 
 use yii\console\Controller;
 use libs8000\consoleutils\widgets\DevelopmentEnvironment;
+use libs8000\consoleutils\widgets\ProductionEnvironment;
 
 /**
  * Environemt controller
@@ -15,14 +16,14 @@ use libs8000\consoleutils\widgets\DevelopmentEnvironment;
 
 class EnvironmentController extends Controller
 {
-    /**
-     * Creates environment files
-     * 
-     * @return mixed
-     */
     
-    public function actionIndex()
+    public function actionDev()
     {
         DevelopmentEnvironment::widget();
+    }
+    
+    public function actionProd()
+    {
+        ProductionEnvironment::widget();
     }
 }
