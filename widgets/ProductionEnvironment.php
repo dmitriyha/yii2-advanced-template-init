@@ -1,7 +1,7 @@
 <?php
 namespace libs8000\consoleutils\widgets;
-//use yii\base\Widget;
 
+//production environment setting widget
 class ProductionEnvironment extends BaseEnvironment {
    
     protected $environment = 'prod';
