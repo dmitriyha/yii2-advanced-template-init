@@ -3,7 +3,7 @@ namespace libs8000\consoleutils\widgets;
 
 use Yii;
 use yii\base\Widget;
-
+//the base widget class to set environment files
 abstract class BaseEnvironment extends Widget {
     public $dbName;
     public $dbUser = 'root';
