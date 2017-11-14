@@ -13,7 +13,7 @@ You will also be required to add this to your console config `main.php`, as this
     'modules' => [
         ...
         'dmitriyha' => [
-            'class' => 'dmitriyha\yii2-advanced-template-init\Module',
+            'class' => 'dmitriyha\Yii2AdvancedTemplateInit\Module',
         ],
         ...
     ],
