@@ -2,7 +2,7 @@
 This component is an open sourcing of a personal tool for instantiating the local variables of a Yii2 application that uses the advanced template. 
 This tool is meant to be used in a cli environment only.
 
-#usage
+# usage
 include the following in your `composer.json`
 
     "dmitriyha/consoleutils":"v0.0.*"
