@@ -1,16 +1,15 @@
 <?php
-
-namespace libs8000\consoleutils;
+namespace dmitriyha\Yii2AdvancedTemplateInit;
 
 /**
- * libs8000 module definition class
+ *  module definition class
  */
 class Module extends \yii\base\Module
 {
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'libs8000\consoleutils\controllers';
+    public $controllerNamespace = 'dmitriyha\Yii2AdvancedTemplateInit\controllers';
 
     /**
      * @inheritdoc

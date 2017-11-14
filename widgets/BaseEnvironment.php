@@ -1,5 +1,5 @@
 <?php
-namespace libs8000\consoleutils\widgets;
+namespace dmitriyha\Yii2AdvancedTemplateInit\widgets;
 
 use Yii;
 use yii\base\Widget;

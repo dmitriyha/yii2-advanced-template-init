@@ -1,6 +1,6 @@
 {
-    "name": "libs8000/consoleutils",
-    "description": "Console utilities for the libs8000",
+    "name": "dmitriyha/yii2-advanced-template-init",
+    "description": "Console utility to initialize and reinitialze a Yii2 application",
     "type": "library",
     "authors": [
         {
@@ -12,8 +12,8 @@
         "yiisoft/yii2": ">=2.0.6"
     },
     "autoload": {
-		"psr-4": {
-			"libs8000\\consoleutils\\": ""
-		}
-	}   
+	"psr-4": {
+            "dmitriyha\\Yii2AdvancedTemplateInit\\": ""
+	}
+    }   
 }

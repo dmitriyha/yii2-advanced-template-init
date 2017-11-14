@@ -1,12 +1,11 @@
 <?php
-
-namespace libs8000\consoleutils\controllers;
+namespace dmitriyha\Yii2AdvancedTemplateInit\controllers;
 
 use Yii;
 
 use yii\console\Controller;
-use libs8000\consoleutils\widgets\DevelopmentEnvironment;
-use libs8000\consoleutils\widgets\ProductionEnvironment;
+use dmitriyha\Yii2AdvancedTemplateInit\widgets\DevelopmentEnvironment;
+use dmitriyha\Yii2AdvancedTemplateInit\widgets\ProductionEnvironment;
 
 /**
  * Environemt controller

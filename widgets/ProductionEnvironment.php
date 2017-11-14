@@ -1,5 +1,5 @@
 <?php
-namespace libs8000\consoleutils\widgets;
+namespace dmitriyha\Yii2AdvancedTemplateInit\widgets;
 
 //production environment setting widget
 class ProductionEnvironment extends BaseEnvironment {
