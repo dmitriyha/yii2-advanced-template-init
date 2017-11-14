@@ -5,7 +5,7 @@ This tool is meant to be used in a cli environment only.
 # Usage
 Include the following in your `composer.json`
 
-    "dmitriyha/consoleutils":"v0.0.*"
+    "dmitriyha/yii2-advanced-template-init":"v0.0.*"
     
 You will also be required to add this to your console config `main.php`, as this is a CLI only feature:
 
@@ -13,7 +13,7 @@ You will also be required to add this to your console config `main.php`, as this
     'modules' => [
         ...
         'dmitriyha' => [
-            'class' => 'dmitriyha\consoleutils\Module',
+            'class' => 'dmitriyha\yii2-advanced-template-init\Module',
         ],
         ...
     ],
