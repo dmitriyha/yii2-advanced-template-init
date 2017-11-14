@@ -22,6 +22,6 @@ You will also be required to add this to your console config `main.php`, as this
 ## From CLI
 Invoke the tool by calling
     
-    ./yii dmitiyha/environment/{target environment}
+    ./yii dmitriyha/environment/{target environment}
     
 currently supported environments are `prod` and `dev`
